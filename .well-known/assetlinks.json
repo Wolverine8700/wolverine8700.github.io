@@ -1,6 +1,8 @@
 [
   {
-    "relation": ["delegate_permission/common.handle_all_urls"],
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
     "target": {
       "namespace": "android_app",
       "package_name": "io.rtc.twa",
@@ -10,7 +12,9 @@
     }
   },
   {
-    "relation": ["delegate_permission/common.handle_all_urls"],
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
     "target": {
       "namespace": "android_app",
       "package_name": "io.kas.twa",
@@ -20,12 +24,26 @@
     }
   },
   {
-    "relation": ["delegate_permission/common.handle_all_urls"],
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
     "target": {
       "namespace": "android_app",
       "package_name": "io.github.wolverine8700.twa",
       "sha256_cert_fingerprints": [
         "4E:3C:39:1D:83:D7:C9:32:07:5A:9D:45:8E:12:F5:39:FE:37:D3:42:14:00:A9:3E:EB:EB:59:42:2F:5D:C4:38"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.kdfw.twa",
+      "sha256_cert_fingerprints": [
+        "5E:B3:20:0A:03:13:E3:A5:46:26:C4:BE:F1:C8:58:0A:86:C9:71:00:99:A9:3D:6E:CE:C2:22:DF:06:B2:81:1B"
       ]
     }
   }
